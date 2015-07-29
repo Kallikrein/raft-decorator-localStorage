@@ -13,7 +13,6 @@
 				function Collection(constructor, value) {
 					inherits.call(this, constructor, value);
 				}
-				//Collection.prototype = new inherits ();
 				for (var element in inherits.prototype) {
 					if ({}.toString.call(inherits.prototype[element]).slice(8, -1) == 'Function' )
 						Collection.prototype[element] = inherits.prototype[element];
@@ -44,7 +43,6 @@
 				function Class(value) {
 					inherits.call(this, value);
 				}
-				//Class.prototype = new inherits ();
 				for (var element in inherits.prototype) {
 					if ({}.toString.call(inherits.prototype[element]).slice(8, -1) == 'Function' )
 						Class.prototype[element] = inherits.prototype[element];
