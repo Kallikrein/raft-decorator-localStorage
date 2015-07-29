@@ -1,6 +1,6 @@
 {
   "name": "raft-decorator-localStorage",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "homepage": "https://github.com/Kallikrein/raft-decorator-localStorage",
   "description": "An adapter component for raft. Decorates the builder with localStorage methods.",
   "main": "raftLocal.js",
