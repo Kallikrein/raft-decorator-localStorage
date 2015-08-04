@@ -55,12 +55,10 @@
 				/*  CLASS METHODS  */
 				Class.prototype.load = function () {
 					var _key = (this.id) ? [model.prefix, '/', this.id()].join('') : model.prefix;
-					console.log(_key);
 					var _str = localStorage.getItem(_key);
 					var _obj = {};
 					if (_str != null)
 						_obj = JSON.parse(_str);
-					console.log(_obj);
 					this.update(_obj);
 					return this;
 				};
